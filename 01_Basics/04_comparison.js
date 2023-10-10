@@ -9,3 +9,9 @@ console.log(undefined<0)
 console.log("2" == 2)
 //console.log("2" = 2)
 console.log("2" === 2)
+
+// let youtubename="hardik"
+// let anothername=youtubename
+// anothername="vijay"
+// console.log(youtubename)
+// console.log(anothername)
