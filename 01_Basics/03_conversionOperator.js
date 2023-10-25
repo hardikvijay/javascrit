@@ -9,7 +9,7 @@ let score="hardik"
 console.log(typeof score)
 console.log(typeof(score))
 
-let valueInNumber = Number(score)   // ise ye hoga ki ajo bhi number ya string hmne score ko di hogi vo isse no. bn jayega ye mainly us case me use hota hai jb hm backend pe work kr rhe honge tb hme pta nhi hoga ki fronted pe kisine isse score stringki form me diya hai number toh hum isse chage kr lenge number/string ki form me!
+let valueInNumber = Number(score)   // ise ye hoga ki ajo bhi number ya string hmne score ko di hogi vo isse no. bn jayega ye mainly us case me use hota hai jb hm backend pe work kr rhe honge tb hme pta nhi hoga ki fronted pe kisine isse score string ki form me diya hai ya number toh hum isse change kr lenge number/string ki form me!
 console.log(typeof valueInNumber)
 console.log(valueInNumber)
  */

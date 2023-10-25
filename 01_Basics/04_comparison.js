@@ -7,7 +7,7 @@ console.log(undefined>0)
 console.log(undefined<0)
 
 console.log("2" == 2)
-//console.log("2" = 2)
+//console.log("2" = 2)    //it will give error
 console.log("2" === 2)
 
 // let youtubename="hardik"

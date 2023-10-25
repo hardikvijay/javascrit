@@ -9,7 +9,7 @@ accountcity="bengaluru"
 let accountstate;
 
 
-// account_id="2"  // we can change it because we already declare it constant
+// account_id="2"  // we can not change it because we already declare it constant
 console.log(accountId)
 
 /*
