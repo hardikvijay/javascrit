@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color:white
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM learning from chai aur code <span style="display: none;">  test text </span></h1>
+       
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>   
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+        </ul>
+    </div>
+</body>
+</html>            
+/*
+console.log(document.links)  --> isko hn inspect ke console me likenge  aur iska output jo ayega wo html ki form me ayega but hm usko array me convert kr skte hai.
+
+isko bhi hm aese likh ke change kr skte hai in console -->
+
+document.getElementById('firstHeading')
+document.getElementById('firstHeading').innerHTML="<h1>chai aur code</>"*/
+
+
+    //that means tempList ke pass foreach jaisi koi chizzz nhi hai
+    //So agar Nodelist ke upper agar MAP use krna hai toh kese krenge  ---> convert krke use krenge    we need to convert HTMLCollection first
+    //converting HTMLCollection to Array  -->  Array.from(tempClassList)   //it is converted in array tempClassList ye file ka name hai jise Array me covert kra hai
+ 
