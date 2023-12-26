@@ -64,5 +64,37 @@ setInterval(function () {
 
 
 ```
+## 2 aysnc project
+## project 4 (unlimited colors)
 
-## project 4
+```javascript
+//generate a random color
+const randomcolor= function(){
+  const hex='0123456789ABCDEF'
+  let color='#';
+  for(let i=0;i<6;i++){
+  color+=hex[Math.floor(Math.random()*16)];
+  }
+  return color;
+};
+let intervalId
+const startchangingcolor=function(){
+  if(!intervalId){
+  intervalId=setInterval(changeColor,1000)
+  }
+  // document.body.style.backgroundColor=randomcolor();
+
+
+  function changeColor(){
+    document.body.style.backgroundColor=randomcolor();
+  }
+}
+const stopchangingcolor=function(){
+  clearInterval(intervalId);
+  intervalId=null;    //this is edge case 
+}
+
+document.querySelector('#start').addEventListener('click',startchangingcolor);
+document.querySelector('#stop').addEventListener('click',stopchangingcolor);
+
+```
