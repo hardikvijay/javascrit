@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: aqua;">
+    <h1>chai aur code</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    
+//     setTimeout(function(){
+//     console.log("hardik");
+// },6000)     
+
+
+//setTimeout ek bar hi print krega lekin setInterval bar-bar print krega uss time second ke baad
+
+// write window in console ---> check setTimeout and setInterval   ,     clearTimeout and clearInterval
+
+
+const hardik=function(){
+console.log("hardik");}
+
+setTimeout(hardik,5000);
+
+//document.querySelector('h1').innerHTML="js"                       //this is how we can change the name of 'h1'.
+const changeText=function(){
+    document.querySelector('h1').innerHTML="js"
+}
+ const changeMe=setTimeout(changeText,3000);
+
+document.querySelector('#stop').addEventListener('click',function(){
+    clearTimeout(changeMe)
+    console.log('STOPPED')
+})
+
+</script>
+</html>
